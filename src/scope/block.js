@@ -16,3 +16,15 @@ const fruits = () => {
 }
 
 fruits();
+
+
+// Ejemplo 2
+
+var x = 1;
+
+{
+    var x = 2;
+    console.log(x);
+}
+
+console.log(x);
