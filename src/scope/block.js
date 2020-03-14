@@ -28,3 +28,16 @@ var x = 1;
 }
 
 console.log(x);
+
+// Ejemplo 3
+
+const anotherFunction = () => {
+    for (var i = 0; i < 10; i++) {
+        console.log("# ", i);
+        setTimeout(() => {
+            console.log(i);
+        }, 1000);
+    }
+}
+
+anotherFunction();
